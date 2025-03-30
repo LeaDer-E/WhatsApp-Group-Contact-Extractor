@@ -48,8 +48,8 @@ pip install -r requirements.txt
 - **README.md:**  
   This documentation file.
 
-- **requirements.txt / requirements.py:**  
-  Files listing project dependencies.
+- **requirements.txt:**  
+  File listing project dependencies.
 
 ## Usage
 
@@ -62,8 +62,15 @@ pip install -r requirements.txt
    <span title="+20 10 10101010, +20 12 12121212, ... , and 389 more" class="...">
    </span>
    ```
+   
+   ## you can get it from here:
+   1. By Opening The Group Chat, then under the chat you will find the numbers, you can right click on it, then `Inspect Element` you will find all the Numbers:
+   * ![image](https://github.com/user-attachments/assets/fc388615-cb5c-4fb0-b026-3c6db4e9aba7)
+   2. After that, write click on the Numbers, then Copy, then Copy Elements.
+   * ![WhatsApp Image 2025-03-30 at 5 16 15 AM](https://github.com/user-attachments/assets/1cbe05fd-7241-4343-bd6a-a5b3a0843ea0)
+   4. open the `unsorted.txt` and paste on it.
 
-2. **Run the Extraction Script:**  
+3. **Run the Extraction Script:**  
    Execute the script to extract phone numbers and create an Excel file:
 
    ```bash
