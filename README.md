@@ -64,17 +64,17 @@ pip install -r requirements.txt
    ```
    
    ## you can get it from here:
-   1. By Opening The Group Chat, then under the chat you will find the numbers, you can right click on it, then `Inspect Element` you will find all the Numbers:
-   * ![image](https://github.com/user-attachments/assets/fc388615-cb5c-4fb0-b026-3c6db4e9aba7)
-   2. After that, write click on the Numbers, then Copy, then Copy Elements.
-   * ![WhatsApp Image 2025-03-30 at 5 16 15 AM](https://github.com/user-attachments/assets/1cbe05fd-7241-4343-bd6a-a5b3a0843ea0)
-   4. open the `unsorted.txt` and paste on it.
+   * By Opening The Group Chat, then under the chat you will find the numbers, you can right click on it, then `Inspect Element` you will find all the Numbers:
+     ![image](https://github.com/user-attachments/assets/fc388615-cb5c-4fb0-b026-3c6db4e9aba7)
+   * After that, write click on the Numbers, then Copy, then Copy Elements.
+     ![WhatsApp Image 2025-03-30 at 5 16 15 AM](https://github.com/user-attachments/assets/1cbe05fd-7241-4343-bd6a-a5b3a0843ea0)
+   * open the `unsorted.txt` and paste on it.
 
 3. **Run the Extraction Script:**  
    Execute the script to extract phone numbers and create an Excel file:
 
    ```bash
-   python split_numbers.py
+   python splitting.py
    ```
 
    The script will output the number of phone numbers extracted and save the Excel file with a filename like `NumbersYYYYMMDD_HHMMSS.xlsx`.
@@ -90,7 +90,7 @@ If you have multiple Excel files generated from different runs of the extraction
    Execute the merge script:
 
    ```bash
-   python merge_numbers.py
+   python merging.py
    ```
 
    This script will combine the numbers from each file, remove duplicates, and create a new file named something like `MergedNumbers_YYYYMMDD_HHMMSS.xlsx`.
